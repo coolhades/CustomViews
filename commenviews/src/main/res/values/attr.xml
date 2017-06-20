@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Banner">
+        <attr name="delay_time" format="integer" />
+        <attr name="is_auto_play" format="boolean" />
+        <attr name="title_background" format="color|reference" />
+        <attr name="title_textcolor" format="color" />
+        <attr name="title_textsize" format="dimension" />
+        <attr name="title_height" format="dimension" />
+        <attr name="indicator_width" format="dimension" />
+        <attr name="indicator_height" format="dimension" />
+        <attr name="indicator_margin" format="dimension" />
+        <attr name="indicator_drawable_selected" format="reference" />
+        <attr name="indicator_drawable_unselected" format="reference" />
+        <attr name="image_scale_type" format="enum">
+            <enum name="fit_xy" value="0" />
+            <enum name="center_crop" value="1" />
+        </attr>
+        <!--<attr name="indicator_animator" format="reference" />-->
+        <!--<attr name="indicator_animator_reverse" format="reference" />-->
+    </declare-styleable>
+
+    <declare-styleable name="UnderLineLinearLayout">
+        <!--时间轴偏移值-->
+        <attr name="line_margin_side" format="dimension"/>
+        <!--时间轴动态调整值-->
+        <attr name="line_dynamic_dimen" format="dimension"/>
+        <!--线宽-->
+        <attr name="line_stroke_width" format="dimension"/>
+        <!--线的颜色-->
+        <attr name="line_color" format="color"/>
+        <!--点的大小-->
+        <attr name="point_size" format="dimension"/>
+        <!--点的颜色-->
+        <attr name="point_color" format="color"/>
+        <!--图标-->
+        <attr name="icon_src" format="reference"/>
+        <!--时间轴的gravity-->
+        <!--the gravity of the timeline-->
+        <attr name="line_gravity">
+            <enum name="Left" value="2"/>
+            <enum name="Right" value="4"/>
+            <enum name="Middle" value="0"/>
+            <enum name="Top" value="1"/>
+            <enum name="Bottom" value="3"/>
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="SHCircleProgressBar">
+        <attr name="inner_radius" format="dimension" />
+        <attr name="background_color" format="color" />
+        <attr name="progress_color" format="color" />
+        <attr name="progress_stoke_width" format="dimension" />
+        <attr name="show_arrow" format="boolean" />
+        <attr name="enable_circle_background" format="boolean" />
+        <attr name="arrow_width" format="dimension" />
+        <attr name="arrow_height" format="dimension" />
+        <attr name="progress" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="progress_text_size" format="dimension" />
+        <attr name="progress_text_color" format="color" />
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SHSwipeRefreshLayout">
+        <!--Loading视图背景颜色-->
+        <attr name="guidance_view_bg_color" format="color|reference" />
+        <!--Loading视图中文字颜色-->
+        <attr name="guidance_text_color" format="color|reference" />
+        <!--进度条颜色-->
+        <attr name="progress_bar_color" format="color|reference" />
+        <!--进度条背景色-->
+        <attr name="progress_bg_color" format="color|reference" />
+        <!--下拉刷新文字描述-->
+        <attr name="refresh_text" format="string|reference" />
+        <!--上拉加载文字描述-->
+        <attr name="load_text" format="string|reference" />
+        <!--下拉刷新是否可用-->
+        <attr name="pull_refresh_enable" format="boolean" />
+        <!--上拉加载是否可用-->
+        <attr name="loadmore_enable" format="boolean" />
+    </declare-styleable>
+
+
+    <!--刷新雨滴效果-->
+    <declare-styleable name="WaterDropView">
+        <attr name="max_circle_radius" format="dimension"/>
+        <attr name="min_circle_radius" format="dimension"/>
+        <attr name="waterdrop_color" format="color"/>
+        <attr name="topcircle_x" format="dimension"/>
+        <attr name="topcircle_y" format="dimension"/>
+        <attr name="bottomcircle_x" format="dimension"/>
+        <attr name="bottomcircle_y" format="dimension"/>
+    </declare-styleable>
+
+</resources>

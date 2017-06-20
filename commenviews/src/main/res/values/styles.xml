@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+
+    <style name="DialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+
+    <style name="TextViewTheme" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <!--<item name="android:textColor">@color/table_text_light</item>-->
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+
+    <!--<style name="EditTextTheme" parent="@android:style/Widget.EditText">-->
+    <!--<item name="android:autoText">false</item>-->
+    <!--<item name="android:capitalize">none</item>-->
+    <!--<item name="android:scrollHorizontally">true</item>-->
+    <!--<item name="android:singleLine">true</item>-->
+    <!--<item name="android:padding">10dp</item>-->
+    <!--<item name="android:textColor">@color/table_text</item>-->
+    <!--<item name="android:textCursorDrawable">@drawable/edit_text_cursor</item>-->
+    <!--<item name="android:textSize">20sp</item>-->
+    <!--<item name="android:ground_universal_white">@drawable/edit_text_background</item>-->
+    <!--</style>-->
+
+    <!--<style name="ButtonTheme" parent="@android:style/Widget.Button">-->
+    <!--<item name="android:paddingLeft">@dimen/margin_middle</item>-->
+    <!--<item name="android:paddingRight">@dimen/margin_middle</item>-->
+    <!--<item name="android:textSize">16sp</item>-->
+    <!--<item name="android:textColor">@color/text_light_selector</item>-->
+    <!--<item name="android:ground_universal_white">@drawable/background_button_rectangle</item>-->
+    <!--</style>-->
+
+    <!--<style name="ImageButtonTheme" parent="@android:style/Widget.ImageButton">-->
+    <!--</style>-->
+
+    <!--<style name="RadioButtonTheme" parent="@android:style/Widget.CompoundButton.RadioButton">-->
+    <!--<item name="android:button">@drawable/radiobutton</item>-->
+    <!--<item name="android:paddingLeft">@dimen/margin_small</item>-->
+    <!--</style>-->
+
+    <!--<style name="CheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">-->
+    <!--<item name="android:button">@drawable/checkbox</item>-->
+    <!--<item name="android:paddingLeft">@dimen/margin_small</item>-->
+    <!--</style>-->
+
+    <!--<style name="SpinnerTheme">-->
+    <!--<item name="android:indeterminate">true</item>-->
+    <!--<item name="android:indeterminateDrawable">@drawable/spinner</item>-->
+    <!--<item name="android:indeterminateDuration">2000</item>-->
+    <!--<item name="android:indeterminateOnly">true</item>-->
+    <!--</style>-->
+
+    <!--<style name="ScrollViewTheme" parent="@android:style/Widget.ScrollView">-->
+    <!--<item name="android:scrollbarTrackVertical">@drawable/scrollbar_vertical_track</item>-->
+    <!--<item name="android:scrollbarThumbVertical">@drawable/scrollbar_vertical_thumb</item>-->
+    <!--<item name="android:scrollbarTrackHorizontal">@drawable/scrollbar_vertical_track</item>-->
+    <!--<item name="android:scrollbarThumbHorizontal">@drawable/scrollbar_vertical_thumb</item>-->
+    <!--<item name="android:scrollbarStyle">outsideOverlay</item>-->
+    <!--<item name="android:scrollbarSize">12dp</item>-->
+    <!--</style>-->
+
+    <!--<style name="GridViewTheme" parent="@android:style/Widget.GridView">-->
+    <!--<item name="android:listSelector">@drawable/list_item_background</item>-->
+    <!--<item name="android:scrollbarTrackVertical">@drawable/scrollbar_vertical_track</item>-->
+    <!--<item name="android:scrollbarThumbVertical">@drawable/scrollbar_vertical_thumb</item>-->
+    <!--<item name="android:scrollbarTrackHorizontal">@drawable/scrollbar_vertical_track</item>-->
+    <!--<item name="android:scrollbarThumbHorizontal">@drawable/scrollbar_vertical_thumb</item>-->
+    <!--<item name="android:scrollbarStyle">outsideOverlay</item>-->
+    <!--<item name="android:scrollbarSize">12dp</item>-->
+    <!--</style>-->
+
+    <!--<style name="ListViewTheme" parent="@android:style/Widget.ListView">-->
+    <!--<item name="android:dividerHeight">2px</item>-->
+    <!--<item name="android:divider">@drawable/bootstrap_divider</item>-->
+    <!--<item name="android:cacheColorHint">@android:color/transparent</item>-->
+    <!--<item name="android:listSelector">@drawable/list_item_background</item>-->
+
+    <!--<item name="android:scrollbarTrackVertical">@drawable/scrollbar_vertical_track</item>-->
+    <!--<item name="android:scrollbarThumbVertical">@drawable/scrollbar_vertical_thumb</item>-->
+    <!--<item name="android:scrollbarTrackHorizontal">@drawable/scrollbar_vertical_track</item>-->
+    <!--<item name="android:scrollbarThumbHorizontal">@drawable/scrollbar_vertical_thumb</item>-->
+    <!--<item name="android:scrollbarStyle">outsideOverlay</item>-->
+    <!--<item name="android:scrollbarSize">12dp</item>-->
+    <!--</style>-->
+
+    <style name="PopupWindowTheme" parent="@android:style/Widget.PopupWindow"></style>
+
+    <style name="ProgressBarTheme" parent="@android:style/Widget.ProgressBar"></style>
+
+    <!--<style name="ProgressBarHorizontalTheme" parent="@android:style/Widget.ProgressBar.Horizontal">-->
+    <!--<item name="android:progressDrawable">@drawable/progressbar_horizontal</item>-->
+    <!--</style>-->
+
+
+    <!-- Dialog-->
+    <style name="CustomDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+    <style name="MatchParentDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+
+    <!--<style name="ActionSheetStyle">-->
+        <!--<item name="actionSheetBackground">@android:color/transparent</item>-->
+        <!--<item name="cancelButtonBackground">@drawable/slt_as_ios7_cancel_bt</item>-->
+        <!--<item name="otherButtonTopBackground">@drawable/slt_as_ios7_cancel_bt</item>-->
+        <!--<item name="otherButtonMiddleBackground">@drawable/slt_as_ios7_cancel_bt</item>-->
+        <!--<item name="otherButtonBottomBackground">@drawable/slt_as_ios7_cancel_bt</item>-->
+        <!--<item name="otherButtonSingleBackground">@drawable/slt_as_ios7_cancel_bt</item>-->
+        <!--<item name="cancelButtonTextColor">#000000</item>-->
+        <!--<item name="otherButtonTextColor">#000000</item>-->
+        <!--<item name="actionSheetPadding">10dp</item>-->
+        <!--<item name="otherButtonSpacing">6dp</item>-->
+        <!--<item name="cancelButtonMarginTop">10dp</item>-->
+        <!--<item name="actionSheetTextSize">12sp</item>-->
+    <!--</style>-->
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Widget.MaterialRatingBar.RatingBar" parent="android:Widget.RatingBar">
+        <!--
+        Disabled for correct behavior on Android 4.x, see
+        https://github.com/android/platform_frameworks_base/commit/911743652b597057a1bd7ef8a921e9ff8dce0f4a#diff-149f45c5ff2d3185bb79688ba17bc432L536
+        <item name="android:progressDrawable">@null</item>
+        -->
+        <item name="android:indeterminateDrawable">@null</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:maxHeight">36dp</item>
+    </style>
+
+    <style name="Widget.MaterialRatingBar.RatingBar.Small">
+        <item name="android:minHeight">20dp</item>
+        <item name="android:maxHeight">20dp</item>
+    </style>
+
+    <style name="Widget.MaterialRatingBar.RatingBar.Indicator">
+        <item name="android:isIndicator">true</item>
+    </style>
+
+    <style name="Widget.MaterialRatingBar.RatingBar.Indicator.Small">
+        <item name="android:minHeight">22dp</item>
+        <item name="android:maxHeight">22dp</item>
+    </style>
+
+    <style name="roomRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ratingbar_bg</item>
+        <item name="android:minHeight">22dp</item>
+        <item name="android:maxHeight">22dp</item>
+    </style>
+
+    <!--进度条-->
+    <style name="MyProgressbar">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/progressbar_style
+        </item><!-- progress_horizontal -->
+        <item name="android:indeterminateDrawable">
+            @android:drawable/progress_indeterminate_horizontal
+        </item>
+        <item name="android:minHeight">20dip</item>
+        <item name="android:maxHeight">20dip</item>
+    </style>
+
+
+    <!--live-->
+    <style name="title_bg" parent="android:Theme">
+        <item name="android:windowTitleBackgroundStyle">@style/Titleground</item>
+        <item name="android:windowTitleSize">40dip</item>
+    </style>
+
+    <style name="Titleground">
+        <item name="android:background">#ff8f26</item>
+    </style>
+
+    <!-- 全屏幕拉伸 -->
+    <style name="layout_full">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+    <!-- 固定自身大小 -->
+    <style name="layout_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- 横向分布 -->
+    <style name="layout_horizontal" parent="layout_full">
+        <item name="android:layout_width">0px</item>
+    </style>
+
+    <!-- 纵向分布 -->
+    <style name="layout_vertical" parent="layout_full">
+        <item name="android:layout_height">0px</item>
+    </style>
+
+
+    <!--popmenu-->
+    <style name="OptionMenuStyle" parent="android:Widget.Material.TextView" tools:ignore="ResourceName">
+        <item name="android:clickable">true</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:textColor">#fefefe</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:background">@drawable/bg_menu</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+
+</resources>

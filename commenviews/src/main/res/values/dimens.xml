@@ -1,0 +1,80 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!--字体大小-->
+    <dimen name="NavTitleSize">18sp</dimen>
+    <dimen name="TitleSize">16sp</dimen>
+    <dimen name="ContentTextSize">14sp</dimen>
+    <dimen name="TimeTextSize">12sp</dimen>
+
+    <!--头像大小-->
+    <dimen name="UserHeader">75dp</dimen>
+    <dimen name="SmallUserHeader">45dp</dimen>
+
+    <!--组件离屏幕的边距-->
+    <dimen name="padding_screen">8dp</dimen>
+    <!--组件内边距-->
+    <dimen name="padding_4dp">4dp</dimen>
+    <!--Recyclerview的Item间距-->
+    <dimen name="RecyclerItemPadding">12dp</dimen>
+
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="text_dimmer">8dp</dimen>
+
+
+    <dimen name="padding_12dp">12dp</dimen>
+    <dimen name="padding_top">26dp</dimen>
+    <dimen name="padding_buttom">26dp</dimen>
+
+    <dimen name="header_height">50dp</dimen>
+    <dimen name="button_size">35dp</dimen>
+    <dimen name="smallbutton_size">20dp</dimen>
+    <dimen name="bigbutton_size">50dp</dimen>
+    <dimen name="announce_size">45dp</dimen>
+    <dimen name="button_radius">8dp</dimen>
+
+    <dimen name="title_size">16sp</dimen>
+
+    <dimen name="indictor_height">35dp</dimen>
+    <dimen name="card_min_width">80dp</dimen>
+    <dimen name="magic_indictor">40dp</dimen>
+
+    <dimen name="vertical_line_height">12dp</dimen>
+    <dimen name="larger_size">18sp</dimen>
+    <dimen name="small_size">14sp</dimen>
+    <dimen name="smaller_size">12sp</dimen>
+    <dimen name="morelarger_size">20sp</dimen>
+
+    <dimen name="circle_image">75dp</dimen>
+    <dimen name="big_circle_iamge">100dp</dimen>
+
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="height_courseitem_teacherly">45dp</dimen>
+
+    <dimen name="heigh_line">1dp</dimen>
+
+    <dimen name="video_sharebar_height">26dp</dimen>
+    <dimen name="video_sharebar_marginleft">80dp</dimen>
+
+    <!--live-->
+    <dimen name="pldroid_streaming_activity_horizontal_margin">0dp</dimen>
+    <dimen name="pldroid_streaming_activity_vertical_margin">0dp</dimen>
+    <dimen name="pldroid_streaming_item_padding">12dp</dimen>
+    <dimen name="pldroid_streaming_ring_size">72dp</dimen>
+    <dimen name="pldroid_streaming_ring_width">6dip</dimen>
+    <dimen name="pldroid_streaming_square_corner_radius">8dip</dimen>
+    <dimen name="pldroid_streaming_red_circle_padding">8dip</dimen>
+    <dimen name="pldroid_streaming_red_square_padding">16dip</dimen>
+    <dimen name="play_top_text_size">10sp</dimen>
+
+    <!--popmenu-->
+    <dimen name="pop_radius" tools:ignore="ResourceName">7dp</dimen>
+    <dimen name="bulge_size" tools:ignore="ResourceName">7dp</dimen>
+    <!--<dimen name="popwindow">350dp</dimen>-->
+</resources>

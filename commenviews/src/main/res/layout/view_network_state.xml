@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hades.mylibrary.base.ui.customview.status.NetworkStateView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/state_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    app:needAddView="@layout/view_needadd"
+    app:emptyOrderView="@layout/view_empty_order"
+    app:emptySearchView="@layout/view_empty_search"
+    app:emptyView="@layout/view_empty"
+    app:errorView="@layout/view_network_error"
+    app:loadingView="@layout/view_loading"
+    app:noNetworkView="@layout/view_no_network"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+</com.hades.mylibrary.base.ui.customview.status.NetworkStateView>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--通用配置，对外提供配置项-->
+    <color name="StatusBarAlphaColor">#2c000000</color>    //状态栏背景色 带透明度
+    <color name="StatusBarNomalColor">#555555</color>    //状态栏背景色
+
+    <color name="MainTextFiledTextColor">#000000</color> //输入框文字颜色
+    <color name="MainButtonTextColor">#ffffff</color>    //按钮文字色
+    <color name="MainButtonBGColor">#000000</color>      //按钮背景色
+    <color name="MainButtonBorderColor">#ffffff</color>  //按钮边框色
+    <color name="MainViewTitleColor">#000000</color>     //主体文字色
+    <color name="MainViewDescColor">#707070</color>      //描述文字色
+    <color name="MainViewPriceColor">#d81e06</color>     //价格文字色
+    <color name="MainViewTimeColor">#8a8a8a</color>      //时间文字色
+
+    <color name="MainHUDTextColor">#ffffff</color>       //提示信息文字色
+    <color name="MainHUDBGColor">#000000</color>         //提示信息背景色
+
+
+    <color name="NavBarBGColor">#515151</color>          //导航栏背景颜色 titlebar
+    <color name="NavBarTextColor">#ffffff</color>        //导航栏字体颜色，包含按钮颜色
+    <color name="TabBarBGColor">#e6e6e6</color>          //工具栏背景颜色
+    <color name="TabBarTextColor">#000000</color>        //工具文字颜色
+    <color name="TabBarTextUnSelectedColor">#515151</color>//工具栏未选中文字颜色
+
+    <color name="EditTextColor">#ffffff</color>          //输入框文字颜色
+
+    <!--App-->
+    <color name="TextHint">#AFAFAF</color>
+    <color name="SearchBtnTextColor">#000000</color>
+    <color name="SearchBtnBGColor">#ffffff</color>
+
+
+
+
+    <color name="ground_universal_white">#ffffff</color>
+    <color name="ground_universal_black">#000000</color>
+    <color name="ground_personal_header_grey">#20020202</color>
+    <color name="ground">#EEEEEE</color>
+    <color name="diliver">#EDEDED</color>
+
+    <color name="tv_universal_color">#000000</color>
+    <color name="tv_universal_hintcolor">#969696</color>
+    <color name="tv_universal_content">#ffffff</color>
+    <color name="tv_orange">#FF3C00</color>
+
+    <color name="btn_background">#333333</color>
+
+    <color name="viewpageindictor">#00445566</color>
+    <color name="ground_conditiondialog">#99666666</color>//分类 Dialog 背景色
+    <color name="ground_courseitem_color">#8affffff</color>
+
+    <color name="tag_select_textcolor">#424242</color>
+    <color name="ratingbar_selected_color">#FFCB00</color>
+    <color name="fancy_ground_video">#0ab9e5</color>
+    <color name="fancy_ground_exam">#FF4E4D</color>
+
+    //其他
+    <color name="table_text_light">#424242</color>
+    <color name="table_text">#000000</color>
+    <color name="childbackground">#cdcdcd</color>
+    <color name="titletextcolor">#333333</color>
+    <color name="headerlinecolor">#E6E6E6</color>
+    <color name="pricecolor">#B6B6B6</color>
+    <color name="bannerimage">#556675</color>
+
+    <color name="textcolor_white">#ffffff</color>
+    <!-- header_detailicon_ly -->
+    <color name="detail_header_background">#686868</color>
+    <!-- type_dialog-->
+
+    <!--live-->
+    <color name="pldroid_streaming_white">#fff</color>
+    <color name="pldroid_streaming_red">#f00</color>
+    <color name="pldroid_streaming_yellow">#FFFF00</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="banner_border">#999999</color>
+    <color name="splash_bg">#00B7EE</color>
+    <color name="private_chat">#FF0000</color>
+    <color name="public_chat">#000000</color>
+    <color name="chat_background">#dddddd</color>
+    <color name="replay_bottom_bar">#66666666</color>
+    <color name="live_play_bar">#44666666</color>
+    <color name="bg">#66000000</color>
+
+    <color name="magicline_color">#5C307D</color>
+    <color name="ed_line_unfocus">#DFDFDF</color>
+    <color name="ed_line_focus">#BDBDBD</color>
+
+    <color name="ed_login_puple">#5C307D</color>
+
+
+</resources>
