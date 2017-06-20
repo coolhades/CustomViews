@@ -13,7 +13,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.hades.mylibrary.R;
+import com.hades.commenviews.R;
 
 import java.util.HashMap;
 
