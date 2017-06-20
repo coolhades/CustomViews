@@ -2,23 +2,23 @@ package com.hades.commenviews.customview.banner;
 
 import android.support.v4.view.ViewPager.PageTransformer;
 
-import com.hades.mylibrary.base.ui.customview.banner.transformer.AccordionTransformer;
-import com.hades.mylibrary.base.ui.customview.banner.transformer.BackgroundToForegroundTransformer;
-import com.hades.mylibrary.base.ui.customview.banner.transformer.CubeInTransformer;
-import com.hades.mylibrary.base.ui.customview.banner.transformer.CubeOutTransformer;
-import com.hades.mylibrary.base.ui.customview.banner.transformer.DefaultTransformer;
-import com.hades.mylibrary.base.ui.customview.banner.transformer.DepthPageTransformer;
-import com.hades.mylibrary.base.ui.customview.banner.transformer.FlipHorizontalTransformer;
-import com.hades.mylibrary.base.ui.customview.banner.transformer.FlipVerticalTransformer;
-import com.hades.mylibrary.base.ui.customview.banner.transformer.ForegroundToBackgroundTransformer;
-import com.hades.mylibrary.base.ui.customview.banner.transformer.RotateDownTransformer;
-import com.hades.mylibrary.base.ui.customview.banner.transformer.RotateUpTransformer;
-import com.hades.mylibrary.base.ui.customview.banner.transformer.ScaleInOutTransformer;
-import com.hades.mylibrary.base.ui.customview.banner.transformer.StackTransformer;
-import com.hades.mylibrary.base.ui.customview.banner.transformer.TabletTransformer;
-import com.hades.mylibrary.base.ui.customview.banner.transformer.ZoomInTransformer;
-import com.hades.mylibrary.base.ui.customview.banner.transformer.ZoomOutSlideTransformer;
-import com.hades.mylibrary.base.ui.customview.banner.transformer.ZoomOutTranformer;
+import com.hades.commenviews.customview.banner.transformer.AccordionTransformer;
+import com.hades.commenviews.customview.banner.transformer.BackgroundToForegroundTransformer;
+import com.hades.commenviews.customview.banner.transformer.CubeInTransformer;
+import com.hades.commenviews.customview.banner.transformer.CubeOutTransformer;
+import com.hades.commenviews.customview.banner.transformer.DefaultTransformer;
+import com.hades.commenviews.customview.banner.transformer.DepthPageTransformer;
+import com.hades.commenviews.customview.banner.transformer.FlipHorizontalTransformer;
+import com.hades.commenviews.customview.banner.transformer.FlipVerticalTransformer;
+import com.hades.commenviews.customview.banner.transformer.ForegroundToBackgroundTransformer;
+import com.hades.commenviews.customview.banner.transformer.RotateDownTransformer;
+import com.hades.commenviews.customview.banner.transformer.RotateUpTransformer;
+import com.hades.commenviews.customview.banner.transformer.ScaleInOutTransformer;
+import com.hades.commenviews.customview.banner.transformer.StackTransformer;
+import com.hades.commenviews.customview.banner.transformer.TabletTransformer;
+import com.hades.commenviews.customview.banner.transformer.ZoomInTransformer;
+import com.hades.commenviews.customview.banner.transformer.ZoomOutSlideTransformer;
+import com.hades.commenviews.customview.banner.transformer.ZoomOutTranformer;
 
 
 public class Transformer {

@@ -15,7 +15,7 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.hades.mylibrary.R;
+import com.hades.commenviews.R;
 
 import java.util.List;
 
