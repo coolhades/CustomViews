@@ -2,6 +2,7 @@ package com.hades.commenviews.customview.sortview;
 
 import android.content.Context;
 import android.graphics.Color;
+import android.support.annotation.ColorInt;
 import android.support.annotation.ColorRes;
 import android.support.annotation.DrawableRes;
 import android.support.annotation.Nullable;
@@ -103,6 +104,10 @@ public class SortItem extends FrameLayout {
 
     public void setSortTitleColor(@ColorRes int color){
         sortTitle.setTextColor(getResources().getColor(color));
+    }
+
+    public void setSortTitleColorInt(@ColorInt int color){
+        sortTitle.setTextColor(color);
     }
 
     /**
